@@ -36,6 +36,18 @@ label, input {
     background-size: cover;
 }
 
+.banner {
+    font-family: url('Norse-Bold.otf'), sans-serif;
+    color: white;
+    display: flex;
+    background-color: rgba(0,0,0,0.2);
+    align-items: center;
+}
+
+.banner img {
+    height: 150px;
+    width: 150px;
+}
 .header {
     background-color: grey;
 }
