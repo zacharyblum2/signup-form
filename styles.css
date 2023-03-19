@@ -25,7 +25,6 @@ label, input {
 
 /* Create full screen image */
 .sidebar {
-    font-family: Norse-Bold;
     width: 33%;
     margin: 0px;
     padding: 0px;
@@ -34,11 +33,13 @@ label, input {
     background-position: center;
     background-repeat: none;
     background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .banner {
-    font-family: url('Norse-Bold.otf'), sans-serif;
-    color: white;
+    font-family: Norse-Bold, sans-serif;
     display: flex;
     background-color: rgba(0,0,0,0.2);
     align-items: center;
@@ -48,12 +49,14 @@ label, input {
     height: 150px;
     width: 150px;
 }
+
+
 .header {
-    background-color: grey;
+    background-color: hwb(0 91% 7% / 0.781);
 }
 
 .footer {
-    background-color: grey;
+    background-color: hwb(0 91% 7% / 0.781);
 }
 
 .create {
