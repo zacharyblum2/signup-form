@@ -55,6 +55,10 @@ label, input {
     background-color: hwb(0 91% 7% / 0.781);
 }
 
+.indent {
+    margin: 20px;
+}
+
 .footer {
     background-color: hwb(0 91% 7% / 0.781);
 }
