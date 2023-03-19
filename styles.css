@@ -27,9 +27,13 @@ label, input {
 .sidebar {
     font-family: Norse-Bold;
     width: 33%;
-    height: 100vh;
     margin: 0px;
     padding: 0px;
+    background-image: url('images/image.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
 }
 
 .header {
