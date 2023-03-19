@@ -13,14 +13,23 @@ img {
     height: 100%;
 }
 
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     display: flex;
     flex-direction: row;
 }
 
+/* Create full screen image */
 .sidebar {
     font-family: Norse-Bold;
     width: 33%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
@@ -46,4 +55,9 @@ img {
 
 .login {
     color: green;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
 }
