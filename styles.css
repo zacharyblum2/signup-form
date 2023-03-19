@@ -64,12 +64,16 @@ input {
     justify-content: center;
 }
 
+.signup-form {
+    width: 100%;
+}
+
 .header {
     background-color: hwb(0 91% 7% / 0.781);
 }
 
 .indent {
-    margin: 20px;
+    margin: 20px 0px 0px;
 }
 
 .footer {
