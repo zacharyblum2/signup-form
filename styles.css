@@ -21,6 +21,13 @@ label, input {
 input {
     border-radius: 6px;
     border-width: 1px;
+    border-color: #E5E7EB;
+}
+
+input:focus {
+    outline: none !important;
+    border: 2px solid lightblue;
+    box-shadow: 5px 2px 4px #888888;
 }
 
 .container {
