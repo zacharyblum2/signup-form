@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <script src="./app.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -40,6 +41,7 @@
                             <br/>
                             <label for="pword">PASSWORD</label>
                             <input type="password" id="pword" name="pword" required>
+                            <p id="error"></p>
                         </div>
                         <div class="right">
                             <label for="lname">LAST NAME</label>
@@ -60,5 +62,42 @@
             </form>
         </div>
     </div>
+    <script>
+        let pwC = document.getElementById('cword');
+        let pw = document.getElementById('pword');
+        let place = document.getElementById('error');
+
+        pwC.addEventListener("input", function(event) {
+            if (pwC.value != pw.value)
+            {
+                place.style.color = "red";
+                pwC.style.borderColor = "red";
+                pw.style.borderColor = "red";
+                place.textContent = 'Passwords do not match';
+            } 
+            else
+            {
+                pwC.style.borderColor = "#E5E7EB";
+                pw.style.borderColor = "#E5E7EB";
+                place.textContent = '';
+            }
+        });
+
+        pw.addEventListener("input", function(event) {
+            if (pwC.value != '' && pw.value != pwC.value)
+            {
+                place.style.color = "red";
+                pwC.style.borderColor = "red";
+                pw.style.borderColor = "red";
+                place.textContent = 'Passwords do not match';
+            } 
+            else
+            {
+                pwC.style.borderColor = "#E5E7EB";
+                pw.style.borderColor = "#E5E7EB";
+                place.textContent = '';
+            }
+        });
+    </script>
 </body>
 </html>
