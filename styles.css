@@ -27,7 +27,7 @@ input {
 
 input:focus {
     outline: none !important;
-    border: 2px solid lightblue;
+    border: 2px solid rgb(40, 100, 230);
     box-shadow: 5px 2px 4px #888888;
 }
 
@@ -82,10 +82,11 @@ input:focus {
 }
 
 .form {
-    height: 35%;
+    height: 72%;
     background-color: white;
     box-shadow: 5px 6px 8px #888888;
     padding: 0px 0px 0px 30px;
+    padding: 10px 0px 0px 30px;
 }
 
 .indent {
@@ -93,15 +94,15 @@ input:focus {
 }
 
 .header, .footer {
-    height: 20%;
     padding: 0px 0px 0px 30px;
 }
 
 .create {
+    width: 200px;;
     background-color: #596D48;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 7px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
