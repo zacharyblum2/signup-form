@@ -66,18 +66,25 @@ input {
 
 .signup-form {
     width: 100%;
-}
-
-.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: hwb(0 91% 7% / 0.781);
 }
+
+.form {
+    height: 35%;
+    background-color: white;
+    box-shadow: 5px 6px 8px #888888;
+}
+
 
 .indent {
     margin: 20px 0px 0px;
 }
 
-.footer {
-    background-color: hwb(0 91% 7% / 0.781);
+.header, .footer {
+    height: 20%;
 }
 
 .create {
