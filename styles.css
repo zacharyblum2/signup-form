@@ -20,9 +20,10 @@ label, input {
 }
 
 input {
-    border-radius: 6px;
+    border-radius: 3px;
     border-width: 1px;
     border-color: #E5E7EB;
+    width: 200px;
 }
 
 input:focus {
