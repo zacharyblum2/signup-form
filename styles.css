@@ -32,6 +32,9 @@ input:focus {
     box-shadow: 5px 2px 4px #888888;
 }
 
+a {
+    color: inherit;
+}
 .container {
     display: flex;
     flex-direction: row;
@@ -39,7 +42,7 @@ input:focus {
 
 /* Create full screen image */
 .sidebar {
-    width: 33%;
+    width: 40%;
     margin: 0px;
     padding: 0px;
     background-image: url('images/image.jpg');
@@ -60,8 +63,25 @@ input:focus {
     align-items: center;
     position: relative;
     padding: 10px 0px;
-    justify-content: center;
     font-size: 45px;
+    justify-content: center;
+    height: 35%;
+    width: 100%;
+}
+
+.upper, .lower {
+    height: 50%;
+    display: flex;
+}
+
+.upper {
+    justify-content: center;
+    align-items: center;
+}
+
+.lower {
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .banner img {
